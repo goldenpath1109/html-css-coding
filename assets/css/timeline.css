@@ -48,7 +48,7 @@ body {
 .timeline {
   position: absolute;
   top: 0px;
-  left: -43.5rem;
+  left: -440px;
   width: 100vh;
   height: 100vw;
   transform: rotate(90deg) translate3d(0, -100vh, 0);
@@ -60,7 +60,7 @@ body {
   height: 3px;
 }
 .timeline .line.line-html {
-  width: 1372rem;
+  width: 13720px;
 }
 .bg-html {
   background-color: #ffffff;
@@ -68,7 +68,7 @@ body {
 .dates {
   position: absolute;
   top: 0;
-  left: -27rem;
+  left: -270px;
   padding: 0;
   width: 100vh;
   height: 100vw;
@@ -88,7 +88,7 @@ body {
 .timeline_point {
   position: absolute;
   top: 0px;
-  left: -46.4rem;
+  left: -466.5px;
   width: 100vh;
   height: 100vw;
   transform: rotate(90deg) translate3d(0, -100vh, 0);
@@ -98,10 +98,13 @@ body {
 .timeline_point div {
   position: absolute;
   display: inline-block;
+  top: 0;
+  bottom: 0;
+  color: white;
 }
 .point {
-  width: 1.7rem;
-  height: 1.7rem;
+  width: 17px;
+  height: 17px;
   border-radius: 50%;
   background-color: white;
   z-index: 1;
@@ -115,101 +118,117 @@ body {
   background: #666;
   left: 45px;
 }
+/* bottom */
+.point_bottom {
+  position: absolute;
+  left: 8px;
+  top: -43px !important;
+  height: 49px;
+  width: 1px;
+  border-style: dotted;
+  border-width: 1px;
+  color: white;
+}
+.bottom_big_year {
+  position: absolute;
+  left: -3px;
+  top: -145px !important;
+  font-size: 36px;
+}
+.bottom_month {
+  font-size: 16px;
+  position: absolute;
+  left: 100px;
+  top: -135px !important;
+}
+.bottom_event {
+  font-size: 16px;
+  position: absolute;
+  left: -7px;
+  top: -96px !important;
+}
+/* top */
+.point_top {
+  position: absolute;
+  left: 8px;
+  top: 10px !important;
+  height: 49px;
+  width: 1px;
+  border-style: dotted;
+  border-width: 1px;
+  color: white;
+}
+.top_big_year {
+  position: absolute;
+  left: -3px;
+  top: 87px !important;
+  font-size: 36px;
+}
+.top_month {
+  font-size: 16px;
+  position: absolute;
+  left: 100px;
+  top: 98px !important;
+}
+.top_event {
+  font-size: 16px;
+  position: absolute;
+  left: -7px;
+  top: 135px !important;
+}
 /* 1967 */
-.dates div:nth-child(1) {
-  left: 44rem;
+.timeline_point .year_1967 {
+  left: 440px;
 }
-.timeline_point div:nth-child(1) {
-  left: 44rem;
+/* 1969_1 */
+.timeline_point .year_1969_1 {
+  left: 615px;
 }
-/* 1969 */
-.dates div:nth-child(2) {
-  left: 83.7rem;
+/* 1969_2 */
+.timeline_point .year_1969_2 {
+  left: 827px;
 }
-.timeline_point div:nth-child(2) {
-  left: 83.7rem;
+/* 1969_3 */
+.timeline_point .year_1969_3 {
+  left: 1070px;
 }
-/* 1970 */
-.dates div:nth-child(3) {
-  left: 135.5rem;
+/* 1970_1 */
+.timeline_point .year_1970_1 {
+  left: 1340px;
 }
-.timeline_point div:nth-child(3) {
-  left: 135.5rem;
+/* 1970_2 */
+.timeline_point .year_1970_2 {
+  left: 1620px;
 }
 /* 1971 */
-.dates div:nth-child(4) {
-  left: 190.8rem;
+.timeline_point .year_1971 {
+  left: 1900px;
 }
-.timeline_point div:nth-child(4) {
-  left: 190.8rem;
+/* 1974 */
+.timeline_point .year_1974 {
+  left: 2150px;
 }
 /* 1977 */
-.dates div:nth-child(5) {
-  left: 253.3rem;
+.timeline_point .year_1977 {
+  left: 2520px;
 }
-.timeline_point div:nth-child(5) {
-  left: 253.3rem;
+/* 1978_1 */
+.timeline_point .year_1978_1 {
+  left: 2800px;
 }
-/* 1978 */
-.dates div:nth-child(6) {
-  left: 304rem;
+/* 1978_2 */
+.timeline_point .year_1978_2 {
+  left: 3030px;
 }
-.timeline_point div:nth-child(6) {
-  left: 304rem;
+/* 1978_3 */
+.timeline_point .year_1978_3 {
+  left: 3250px;
 }
-/* 1979 */
-.dates div:nth-child(7) {
-  left: 351rem;
+/* 1979_1 */
+.timeline_point .year_1979_1 {
+  left: 3500px;
 }
-.timeline_point div:nth-child(7) {
-  left: 351rem;
-}
-/* 1981 */
-.dates div:nth-child(8) {
-  left: 415.8rem;
-}
-.timeline_point div:nth-child(8) {
-  left: 415.8rem;
-}
-/* 1981 */
-.dates div:nth-child(9) {
-  left: 477.5rem;
-}
-.timeline_point div:nth-child(9) {
-  left: 477.5rem;
-}
-/* 1983 */
-.dates div:nth-child(10) {
-  left: 548rem;
-}
-.timeline_point div:nth-child(10) {
-  left: 548rem;
-}
-/* 1984 */
-.dates div:nth-child(11) {
-  left: 592rem;
-}
-.timeline_point div:nth-child(11) {
-  left: 592rem;
-}
-/* 1984 */
-.dates div:nth-child(12) {
-  left: 638rem;
-}
-.timeline_point div:nth-child(12) {
-  left: 638rem;
-}
-/* 1984 */
-.dates div:nth-child(13) {
-  left: 678rem;
-}
-.timeline_point div:nth-child(13) {
-  left: 678rem;
-}
-/* 1985 */
-.dates div:nth-child(14) {
-  left: 739rem;
-}
-.timeline_point div:nth-child(14) {
-  left: 739rem;
+/* 1979_2 */
+.timeline_point .year_1979_2 {
+  left: 3750px;
 }
