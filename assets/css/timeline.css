@@ -1,0 +1,215 @@
+@keyframes popup {
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+
+html {
+  overflow: hidden;
+}
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #363732;
+  background-image: radial-gradient(circle at top left, #4c5252, #303431 50%);
+}
+.history {
+  width: 100vh;
+  height: 100vw;
+  white-space: nowrap;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transform-origin: right top;
+  transform: rotate(-90deg) translate3d(0, -100vh, 0);
+}
+.history > * {
+  transform-origin: left top;
+}
+.timeline {
+  position: absolute;
+  top: 0px;
+  left: -43.5rem;
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(90deg) translate3d(0, -100vh, 0);
+  z-index: 1;
+}
+.timeline .line {
+  margin-top: 33px;
+  margin-left: 2px;
+  height: 3px;
+}
+.timeline .line.line-html {
+  width: 1372rem;
+}
+.bg-html {
+  background-color: #ffffff;
+}
+.dates {
+  position: absolute;
+  top: 0;
+  left: -27rem;
+  padding: 0;
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(90deg) translate3d(0, -100vh, 0);
+}
+.dates div {
+  position: absolute;
+  display: inline-block;
+  color: #999;
+  font-family: "Play", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: -44px;
+  top: 12px;
+  bottom: 0;
+}
+.timeline_point {
+  position: absolute;
+  top: 0px;
+  left: -46.4rem;
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(90deg) translate3d(0, -100vh, 0);
+  z-index: 1;
+  padding: 0;
+}
+.timeline_point div {
+  position: absolute;
+  display: inline-block;
+}
+.point {
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 1;
+}
+.dates div:before {
+  position: absolute;
+  content: "";
+  top: 0px;
+  bottom: 0;
+  width: 1px;
+  background: #666;
+  left: 45px;
+}
+/* 1967 */
+.dates div:nth-child(1) {
+  left: 44rem;
+}
+.timeline_point div:nth-child(1) {
+  left: 44rem;
+}
+/* 1969 */
+.dates div:nth-child(2) {
+  left: 83.7rem;
+}
+.timeline_point div:nth-child(2) {
+  left: 83.7rem;
+}
+/* 1970 */
+.dates div:nth-child(3) {
+  left: 135.5rem;
+}
+.timeline_point div:nth-child(3) {
+  left: 135.5rem;
+}
+/* 1971 */
+.dates div:nth-child(4) {
+  left: 190.8rem;
+}
+.timeline_point div:nth-child(4) {
+  left: 190.8rem;
+}
+/* 1977 */
+.dates div:nth-child(5) {
+  left: 253.3rem;
+}
+.timeline_point div:nth-child(5) {
+  left: 253.3rem;
+}
+/* 1978 */
+.dates div:nth-child(6) {
+  left: 304rem;
+}
+.timeline_point div:nth-child(6) {
+  left: 304rem;
+}
+/* 1979 */
+.dates div:nth-child(7) {
+  left: 351rem;
+}
+.timeline_point div:nth-child(7) {
+  left: 351rem;
+}
+/* 1981 */
+.dates div:nth-child(8) {
+  left: 415.8rem;
+}
+.timeline_point div:nth-child(8) {
+  left: 415.8rem;
+}
+/* 1981 */
+.dates div:nth-child(9) {
+  left: 477.5rem;
+}
+.timeline_point div:nth-child(9) {
+  left: 477.5rem;
+}
+/* 1983 */
+.dates div:nth-child(10) {
+  left: 548rem;
+}
+.timeline_point div:nth-child(10) {
+  left: 548rem;
+}
+/* 1984 */
+.dates div:nth-child(11) {
+  left: 592rem;
+}
+.timeline_point div:nth-child(11) {
+  left: 592rem;
+}
+/* 1984 */
+.dates div:nth-child(12) {
+  left: 638rem;
+}
+.timeline_point div:nth-child(12) {
+  left: 638rem;
+}
+/* 1984 */
+.dates div:nth-child(13) {
+  left: 678rem;
+}
+.timeline_point div:nth-child(13) {
+  left: 678rem;
+}
+/* 1985 */
+.dates div:nth-child(14) {
+  left: 739rem;
+}
+.timeline_point div:nth-child(14) {
+  left: 739rem;
+}
