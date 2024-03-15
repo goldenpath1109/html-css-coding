@@ -62,7 +62,7 @@ body {
   height: 3px;
 }
 .timeline .line.line-html {
-  width: 23720px;
+  width: 24220px;
 }
 .bg-html {
   background-color: #ffffff;
@@ -181,6 +181,15 @@ body {
 /* 1967 */
 .timeline_point .year_1967 {
   left: 440px;
+}
+.menu_img {
+  position: absolute !important;
+  top: -293px !important;
+  left: 58px;
+}
+.menu_img img {
+  width: 301px;
+  height: 651px;
 }
 /* 1969_1 */
 .timeline_point .year_1969_1 {
@@ -822,4 +831,325 @@ body {
   height: 563px;
   filter: grayscale(100%) brightness(0.4);
 }
+.year_2009_1_img {
+  position: absolute !important;
+  top: 194px !important;
+  left: -157px;
+  font-size: 16px;
+}
+.year_2009_1_img img {
+  width: 210px;
+  height: 150px;
+}
+.year_2009_2_img {
+  position: absolute !important;
+  top: 195px !important;
+  left: 233px;
+  font-size: 16px;
+}
+.year_2009_2_img img {
+  width: 210px;
+  height: 150px;
+}
+.year_2010_img {
+  position: absolute !important;
+  top: -226px !important;
+  left: 49px;
+  font-size: 16px;
+}
+.year_2010_img img {
+  width: -246px;
+  height: 163px;
+}
+.year_2010_special {
+  left: 8px;
+  top: -226px !important;
+  height: 238px;
+}
+.bottom_2010_special {
+  position: absolute !important;
+  top: -338px !important;
+  left: 0px;
+}
+.bottom_2010_month_special {
+  position: absolute !important;
+  top: -321px !important;
+  left: 110px;
+}
+.bottom_2010_event_special {
+  position: absolute !important;
+  top: -284px !important;
+  left: 0px;
+}
+.year_2011_1_1_img {
+  position: absolute !important;
+  top: 187px !important;
+  left: -88px;
+  font-size: 16px;
+}
+.year_2011_1_1_img img {
+  width: 210px;
+  height: 150px;
+}
+
+.year_2011_1_2_img {
+  position: absolute !important;
+  top: 187px !important;
+  left: 210px;
+  font-size: 16px;
+}
+.year_2011_1_2_img img {
+  width: 210px;
+  height: 150px;
+}
+
+.year_2011_1_3_img {
+  position: absolute !important;
+  top: 187px !important;
+  left: 522px;
+  font-size: 16px;
+}
+.year_2011_1_3_img img {
+  width: 210px;
+  height: 150px;
+}
+.year_2012_img {
+  position: absolute !important;
+  top: -291px !important;
+  left: 17685px;
+}
+.year_2012_img img {
+  width: 940px;
+  height: 628px;
+  filter: grayscale(100%) brightness(0.4);
+}
+.year_2015_img {
+  position: absolute !important;
+  top: 176px !important;
+  left: 59px;
+  font-size: 16px;
+}
+.year_2015_img img {
+  width: 276px;
+  height: 184px;
+}
 /* //section4 */
+
+/* section5 */
+.timeline_point .year_2020_1 {
+  left: 19807px;
+}
+.timeline_point .year_2020_2 {
+  left: 20069px;
+}
+.timeline_point .year_2020_3 {
+  left: 20322px;
+}
+.timeline_point .year_2020_4 {
+  left: 20557px;
+}
+.timeline_point .year_2020_5 {
+  left: 20803px;
+}
+.timeline_point .year_2020_6 {
+  left: 21048px;
+}
+.timeline_point .year_2021_1 {
+  left: 21342px;
+}
+.timeline_point .year_2021_2 {
+  left: 21602px;
+}
+.timeline_point .year_2021_3 {
+  left: 21880px;
+}
+.timeline_point .year_2022_1 {
+  left: 22110px;
+}
+.timeline_point .year_2022_2 {
+  left: 22328px;
+}
+.timeline_point .year_2022_3 {
+  left: 22663px;
+}
+.timeline_point .year_2023 {
+  left: 22951px;
+}
+
+.section_5_year {
+  position: absolute !important;
+  top: -281px !important;
+  left: 19807px;
+}
+.section_5_from_to {
+  font-size: 46px;
+}
+.first_year_ex {
+  position: absolute !important;
+  top: 66px !important;
+  left: 18px;
+  font-size: 16px;
+}
+.second_year_ex {
+  position: absolute !important;
+  top: 65px !important;
+  left: 147px;
+  font-size: 16px;
+}
+.explain_1 {
+  position: absolute !important;
+  top: 17px !important;
+  left: 299px;
+  font-size: 26px;
+}
+.explain_2 {
+  position: absolute !important;
+  top: 66px !important;
+  left: 329px;
+  font-size: 16px;
+}
+.year_2020_1_img {
+  position: absolute !important;
+  top: 63px !important;
+  left: -207px;
+  font-size: 16px;
+}
+.year_2020_1_img img {
+  width: 308px;
+  height: 206px;
+}
+.background_year_2020 {
+  position: absolute !important;
+  top: -54px !important;
+  left: 19767px;
+}
+.background_year_2020 img {
+  width: 641px;
+  height: 463px;
+  filter: grayscale(100%) brightness(0.4);
+}
+.year_2021_1_img {
+  position: absolute !important;
+  top: 189px !important;
+  left: -148px;
+  font-size: 16px;
+}
+.year_2021_1_img img {
+  width: 170px;
+  height: 145px;
+}
+.year_2021_2_img {
+  position: absolute !important;
+  top: 189px !important;
+  left: 64px;
+  font-size: 16px;
+}
+.year_2021_2_img img {
+  width: 170px;
+  height: 145px;
+}
+.year_2021_3_img {
+  position: absolute !important;
+  top: 186px !important;
+  left: 280px;
+  font-size: 16px;
+}
+.year_2021_3_img img {
+  width: 170px;
+  height: 145px;
+}
+.year_2021_4_img {
+  position: absolute !important;
+  top: 189px !important;
+  left: 510px;
+  font-size: 16px;
+}
+.year_2021_4_img img {
+  width: 170px;
+  height: 145px;
+}
+
+.year_2022_3_img {
+  position: absolute !important;
+  top: 208px !important;
+  left: 0px;
+  font-size: 16px;
+}
+.year_2022_3_img img {
+  width: 180px;
+  height: 145px;
+}
+.point_bottom_2022_2_special {
+  top: -207px !important;
+  height: 209px;
+}
+.event_2022_2_special {
+  top: -270px !important;
+}
+.year_2022_2_special {
+  top: -327px !important;
+}
+.month_2022_2_special {
+  top: -311px !important;
+}
+.year_2022_2_img {
+  position: absolute !important;
+  top: -175px !important;
+  left: 43px;
+  font-size: 16px;
+}
+.year_2022_2_img img {
+  width: 250px;
+  height: 110px;
+}
+.year_2023_1_img {
+  position: absolute !important;
+  top: 58px !important;
+  left: 55px;
+  font-size: 16px;
+}
+.year_2023_1_img img {
+  width: 206px;
+  height: 181px;
+}
+.year_2023_1_1_img {
+  position: absolute !important;
+  top: -299px !important;
+  left: 395px;
+  font-size: 16px;
+}
+.year_2023_1_1_img img {
+  width: 341px;
+  height: 227px;
+}
+.year_2023_1_2_img {
+  position: absolute !important;
+  top: -299px !important;
+  left: 799px;
+  font-size: 16px;
+}
+.year_2023_1_2_img img {
+  width: 341px;
+  height: 227px;
+}
+.year_2023_1_3_img {
+  position: absolute !important;
+  top: 71px !important;
+  left: 397px;
+  font-size: 16px;
+}
+.year_2023_1_3_img img {
+  width: 341px;
+  height: 227px;
+}
+.year_2023_1_4_img {
+  position: absolute !important;
+  top: 71px !important;
+  left: 804px;
+  font-size: 16px;
+}
+.year_2023_1_4_img img {
+  width: 341px;
+  height: 227px;
+}
+/* //section5 */
