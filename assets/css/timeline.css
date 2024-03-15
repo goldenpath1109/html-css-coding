@@ -26,11 +26,13 @@
 
 html {
   overflow: hidden;
+  font-family: "Noto Sans JP", sans-serif;
 }
 body {
   overflow-x: hidden;
   overflow-y: auto;
   background-color: #363732;
+  font-family: "Noto Sans JP", sans-serif;
   background-image: radial-gradient(circle at top left, #4c5252, #303431 50%);
 }
 .history {
@@ -48,11 +50,11 @@ body {
 .timeline {
   position: absolute;
   top: 0px;
-  left: -440px;
+  left: -320px;
   width: 100vh;
   height: 100vw;
   transform: rotate(90deg) translate3d(0, -100vh, 0);
-  z-index: 1;
+  z-index: 5;
 }
 .timeline .line {
   margin-top: 33px;
@@ -60,7 +62,7 @@ body {
   height: 3px;
 }
 .timeline .line.line-html {
-  width: 13720px;
+  width: 23720px;
 }
 .bg-html {
   background-color: #ffffff;
@@ -88,7 +90,7 @@ body {
 .timeline_point {
   position: absolute;
   top: 0px;
-  left: -466.5px;
+  left: -346.5px;
   width: 100vh;
   height: 100vw;
   transform: rotate(90deg) translate3d(0, -100vh, 0);
@@ -107,7 +109,7 @@ body {
   height: 17px;
   border-radius: 50%;
   background-color: white;
-  z-index: 1;
+  z-index: 100;
 }
 .dates div:before {
   position: absolute;
@@ -132,20 +134,20 @@ body {
 .bottom_big_year {
   position: absolute;
   left: -3px;
-  top: -145px !important;
+  top: -155px !important;
   font-size: 36px;
 }
 .bottom_month {
   font-size: 16px;
   position: absolute;
   left: 100px;
-  top: -135px !important;
+  top: -139px !important;
 }
 .bottom_event {
   font-size: 16px;
   position: absolute;
   left: -7px;
-  top: -96px !important;
+  top: -99px !important;
 }
 /* top */
 .point_top {
@@ -168,13 +170,13 @@ body {
   font-size: 16px;
   position: absolute;
   left: 100px;
-  top: 98px !important;
+  top: 104px !important;
 }
 .top_event {
   font-size: 16px;
   position: absolute;
   left: -7px;
-  top: 135px !important;
+  top: 142px !important;
 }
 /* 1967 */
 .timeline_point .year_1967 {
@@ -232,3 +234,592 @@ body {
 .timeline_point .year_1979_2 {
   left: 3750px;
 }
+
+.year_1974_img {
+  position: absolute;
+  z-index: -100;
+  top: -253px !important;
+  left: 2100px;
+}
+.year_1974_img img {
+  width: 503px;
+  height: 531px;
+  filter: grayscale(100%) brightness(0.4);
+}
+.year_1974_img_1 {
+  position: absolute;
+  top: 23px !important;
+  left: 2395px;
+}
+.year_1974_img_1 img {
+  width: 243px;
+  height: 255px;
+}
+.timeline_top {
+  font-size: 16px;
+  position: absolute;
+  top: -305px !important;
+  left: 443px;
+  display: flex;
+}
+.timeline_top div:nth-child(2) {
+  left: 49px;
+  top: 1px;
+}
+.timeline_top div:nth-child(3) {
+  left: 75px;
+  top: 1px;
+}
+.section1_year {
+  position: absolute;
+  top: -266px !important;
+  left: 434px;
+}
+.section1_year p:nth-child(1) {
+  font-size: 46px;
+}
+.section1_year_bottom {
+  font-size: 16px;
+  position: absolute;
+  top: -188px !important;
+  left: 455px;
+}
+.section1_year_bottom_1 {
+  font-size: 16px;
+  position: absolute;
+  top: -188px !important;
+  left: 572px;
+}
+.section1_year_intro {
+  position: absolute;
+  font-size: 25px;
+  top: -248px !important;
+  left: 750px;
+}
+.section1_year_intro_1 {
+  position: absolute;
+  font-size: 16px;
+  top: -205px !important;
+  left: 787px;
+}
+.timeline_mouse {
+  position: absolute;
+  top: 349px !important;
+  left: 441px;
+}
+.timeline_mouse p {
+  display: inline-block;
+  position: absolute;
+  top: 0px !important;
+  left: 33px;
+  font-size: 16px;
+}
+.timeline_mouse img[alt="path5"] {
+  display: inline-block;
+  position: absolute;
+  top: 3px !important;
+  left: 96px;
+}
+.footer_menu {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 200px;
+  background-color: white;
+}
+.footer_first {
+  margin-left: 333px;
+  margin-top: 57px;
+}
+.logo img {
+  width: 168px;
+  height: 50px;
+}
+.reserverd {
+  margin-top: 31px;
+}
+.logo {
+  position: relative;
+}
+.logo:before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 60px;
+  background-color: #c8c8c8;
+  top: -3px;
+  left: 217px;
+}
+.footer_button_group {
+  position: absolute;
+  top: 58px;
+  left: 608px;
+  font-size: 16px;
+  display: flex;
+}
+.footer_button_group div:nth-child(1) {
+  margin-right: 30px;
+}
+.footer_button_group div p {
+  display: inline-block;
+  padding: 15px 60px 12px 70px;
+  background-color: #eeeeee;
+  border-radius: 30px;
+  position: relative;
+  white-space: nowrap;
+}
+.footer_button_group div p::after {
+  position: absolute;
+  content: ">";
+  font-size: 16px;
+  top: 15px;
+  left: 47px;
+}
+.logo_last {
+  position: absolute;
+  top: 45px;
+  left: 1114px;
+  display: flex;
+}
+.logo_last div:nth-child(1) {
+  margin-right: 30px;
+}
+.logo_last div img {
+  width: 200px;
+  height: 68px;
+}
+/* .foreground_year_1974_img {
+  width: 603px;
+  height: 631px;
+  position: absolute;
+  top: -325px !important;
+  left: 2097px;
+  z-index: -99;
+  background-color: #363732;
+  opacity: 30%;
+} */
+/* 2 section */
+.timeline_point .year_1981_1 {
+  left: 4303px;
+}
+.timeline_point .year_1981_2 {
+  left: 4541px;
+}
+.timeline_point .year_1981_3 {
+  left: 4780px;
+}
+.timeline_point .year_1983_1 {
+  left: 5234px;
+}
+.timeline_point .year_1983_2 {
+  left: 5447px;
+}
+.timeline_point .year_1983_3 {
+  left: 5665px;
+}
+.timeline_point .year_1984_1 {
+  left: 5891px;
+}
+.timeline_point .year_1984_2 {
+  left: 6112px;
+}
+.timeline_point .year_1984_3 {
+  left: 6349px;
+}
+.timeline_point .year_1984_4 {
+  left: 6588px;
+}
+.timeline_point .year_1984_5 {
+  left: 6842px;
+}
+.timeline_point .year_1984_6 {
+  left: 7088px;
+}
+.timeline_point .year_1985_1 {
+  left: 7361px;
+}
+.timeline_point .year_1985_2 {
+  left: 7719px;
+}
+.timeline_point .year_1986 {
+  left: 7986px;
+}
+.timeline_point .year_1987_1 {
+  left: 8259px;
+}
+.timeline_point .year_1987_2 {
+  left: 8527px;
+}
+.timeline_point .year_1988 {
+  left: 8787px;
+}
+.timeline_point .year_1989_1 {
+  left: 9055px;
+}
+.timeline_point .year_1989_2 {
+  left: 9293px;
+}
+.timeline_point .year_1989_3 {
+  left: 9511px;
+}
+.timeline_point .year_1990 {
+  left: 9737px;
+}
+.section_2_year {
+  position: absolute !important;
+  top: -281px !important;
+  left: 0px;
+}
+.section_2_from_to {
+  font-size: 46px;
+}
+.first_year_ex {
+  position: absolute !important;
+  top: 66px !important;
+  left: 18px;
+  font-size: 16px;
+}
+.second_year_ex {
+  position: absolute !important;
+  top: 65px !important;
+  left: 147px;
+  font-size: 16px;
+}
+.explain_1 {
+  position: absolute !important;
+  top: 17px !important;
+  left: 299px;
+  font-size: 26px;
+}
+.explain_2 {
+  position: absolute !important;
+  top: 66px !important;
+  left: 329px;
+  font-size: 16px;
+}
+.year_1981_1_img {
+  position: absolute !important;
+  top: 61px !important;
+  left: -92px;
+}
+.year_1981_1_img img {
+  width: 214px;
+  height: 214px;
+}
+.year_1981_2_img {
+  position: absolute !important;
+  top: 169px !important;
+  left: -8px;
+  font-size: 16px;
+}
+.year_1981_2_img img {
+  width: 159px;
+  height: 178px;
+}
+.year_1981_3_img {
+  position: absolute !important;
+  top: 107px !important;
+  left: 105px;
+  font-size: 16px;
+}
+.year_1981_3_img img {
+  width: 280px;
+  height: 184px;
+}
+.year_1983_1_img {
+  position: absolute !important;
+  top: -249px !important;
+  left: -171px;
+  font-size: 16px;
+}
+.year_1984_3_img {
+  position: absolute !important;
+  top: -300px !important;
+  left: 380px;
+}
+.year_1984_3_img img {
+  width: 745px;
+  height: 607px;
+  filter: grayscale(100%) brightness(0.4);
+}
+.year_1985_1_img {
+  position: absolute !important;
+  top: 45px !important;
+  left: -30px;
+  font-size: 16px;
+}
+.year_1985_1_img img {
+  width: 306px;
+  height: 250px;
+}
+.year_1988_img {
+  position: absolute !important;
+  top: 177px !important;
+  left: 0px;
+  font-size: 16px;
+}
+.year_1988_img img {
+  width: 250px;
+  height: 188px;
+}
+.year_1989_1_img {
+  position: absolute !important;
+  top: -276px !important;
+  left: -115px;
+  font-size: 16px;
+}
+
+.year_1988_img_1 {
+  position: absolute !important;
+  top: 0px !important;
+  left: 0px;
+  z-index: -9999;
+}
+.year_1989_1_1_img {
+  position: absolute;
+  top: -300px !important;
+  left: 8965px;
+}
+.year_1989_1_1_img img {
+  width: 844px;
+  height: 603px;
+  filter: grayscale(100%) brightness(0.4);
+}
+.year_1988 {
+  z-index: 9999;
+}
+/* //2 section */
+
+/* section3 */
+.timeline_point .year_1991 {
+  left: 10128px;
+}
+.timeline_point .year_1994 {
+  left: 10310px;
+}
+.timeline_point .year_1997_1 {
+  left: 10525px;
+}
+.timeline_point .year_1997_2 {
+  left: 10754px;
+}
+.timeline_point .year_1998_1 {
+  left: 11263px;
+}
+.timeline_point .year_1998_2 {
+  left: 11592px;
+}
+.timeline_point .year_1998_3 {
+  left: 11794px;
+}
+.timeline_point .year_1998_4 {
+  left: 11979px;
+}
+.timeline_point .year_1998_5 {
+  left: 12184px;
+}
+.timeline_point .year_1999 {
+  left: 12449px;
+}
+.timeline_point .year_2000 {
+  left: 12733px;
+}
+.timeline_point .year_2001 {
+  left: 12986px;
+}
+
+.section_3_year {
+  position: absolute !important;
+  top: -281px !important;
+  left: 10128px;
+}
+.section_3_from_to {
+  font-size: 46px;
+}
+.first_year_ex {
+  position: absolute !important;
+  top: 66px !important;
+  left: 18px;
+  font-size: 16px;
+}
+.second_year_ex {
+  position: absolute !important;
+  top: 65px !important;
+  left: 147px;
+  font-size: 16px;
+}
+.explain_1 {
+  position: absolute !important;
+  top: 17px !important;
+  left: 299px;
+  font-size: 26px;
+}
+.explain_2 {
+  position: absolute !important;
+  top: 66px !important;
+  left: 329px;
+  font-size: 16px;
+}
+.year_1997_2_img {
+  position: absolute !important;
+  top: 174px !important;
+  left: 0px;
+  font-size: 16px;
+}
+.year_1997_2_img img {
+  width: 153px;
+  height: 218px;
+}
+.year_1997_2_img p {
+  display: inline-block;
+  position: absolute !important;
+  top: 131px !important;
+  left: 173px;
+}
+.year_1998_1_img {
+  position: absolute !important;
+  top: 77px !important;
+  left: -42px;
+  font-size: 16px;
+}
+.year_1998_1_img img {
+  width: 335px;
+  height: 229px;
+}
+.year_1998_1_background {
+  position: absolute !important;
+  top: -266px !important;
+  left: 11094px;
+}
+.year_1998_1_background img {
+  width: 755px;
+  height: 516px;
+  filter: grayscale(100%) brightness(0.4);
+}
+/* //section3 */
+
+/* section4 */
+.timeline_point .year_2002 {
+  left: 13373px;
+}
+.timeline_point .year_2003 {
+  left: 13624px;
+}
+.timeline_point .year_2004 {
+  left: 13857px;
+}
+.timeline_point .year_2006 {
+  left: 14153px;
+}
+.timeline_point .year_2007_1 {
+  left: 14400px;
+}
+.timeline_point .year_2007_2 {
+  left: 14604px;
+}
+.timeline_point .year_2007_3 {
+  left: 14813px;
+}
+.timeline_point .year_2008_1 {
+  left: 15054px;
+}
+.timeline_point .year_2008_2 {
+  left: 15318px;
+}
+.timeline_point .year_2009 {
+  left: 15590px;
+}
+.timeline_point .year_2010 {
+  left: 15898px;
+}
+.timeline_point .year_2011_1 {
+  left: 16234px;
+}
+.timeline_point .year_2011_2 {
+  left: 16445px;
+}
+.timeline_point .year_2011_3 {
+  left: 16859px;
+}
+.timeline_point .year_2011_4 {
+  left: 17156px;
+}
+.timeline_point .year_2011_5 {
+  left: 17345px;
+}
+.timeline_point .year_2012 {
+  left: 17620px;
+}
+.timeline_point .year_2013 {
+  left: 17855px;
+}
+.timeline_point .year_2014 {
+  left: 18104px;
+}
+.timeline_point .year_2015_1 {
+  left: 18357px;
+}
+.timeline_point .year_2015_2 {
+  left: 18644px;
+}
+.timeline_point .year_2016_1 {
+  left: 18967px;
+}
+.timeline_point .year_2016_2 {
+  left: 19180px;
+}
+
+.section_4_year {
+  position: absolute !important;
+  top: -281px !important;
+  left: 13373px;
+}
+.section_4_from_to {
+  font-size: 46px;
+}
+.first_year_ex {
+  position: absolute !important;
+  top: 66px !important;
+  left: 18px;
+  font-size: 16px;
+}
+.second_year_ex {
+  position: absolute !important;
+  top: 65px !important;
+  left: 147px;
+  font-size: 16px;
+}
+.explain_1 {
+  position: absolute !important;
+  top: 17px !important;
+  left: 299px;
+  font-size: 26px;
+}
+.explain_2 {
+  position: absolute !important;
+  top: 66px !important;
+  left: 329px;
+  font-size: 16px;
+}
+.year_2006_img {
+  position: absolute !important;
+  top: 182px !important;
+  left: 0px;
+  font-size: 16px;
+}
+.year_2006_img img {
+  width: 290px;
+  height: 180px;
+}
+.background_year_2006 {
+  position: absolute !important;
+  top: -276px !important;
+  left: 14329px;
+}
+.background_year_2006 img {
+  width: 851px;
+  height: 563px;
+  filter: grayscale(100%) brightness(0.4);
+}
+/* //section4 */
