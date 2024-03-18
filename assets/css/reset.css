@@ -44,3 +44,18 @@ ul {
   margin: 0 0;
   padding: 0 0;
 }
+.pc_show {
+  display: block;
+}
+.sp_show {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .pc_show {
+    display: none;
+  }
+  .sp_show {
+    display: block;
+  }
+}
