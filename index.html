@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/common.css" />
     <link rel="stylesheet" href="./assets/css/timeline.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
     <!-- header -->
@@ -23,12 +29,12 @@
     <main id="main">
       <div class="container pc_show">
         <div class="menu"></div>
-        <div class="history">
+        <div class="history" id="history">
           <div class="timeline">
             <div class="line line-html bg-html"></div>
           </div>
 
-          <div class="timeline_point">
+          <div class="timeline_point" id="timeline_point">
             <!-- section 1 -->
             <div class="timeline_top">
               <div>
@@ -1984,7 +1990,8 @@
     <!-- footer -->
 
     <!-- /footer -->
-    <script src="./assets/js/script.js"></script>
     <script src="./assets/js/modal.js"></script>
+    <script src="./assets/js/screenmove.js"></script>
+    <script src="./assets/js/keyboard.js"></script>
   </body>
 </html>
