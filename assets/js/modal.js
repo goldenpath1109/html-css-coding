@@ -1,21 +1,22 @@
-// //Get the modal
-// var modal = document.getElementById("imgModal1");
+$(document).ready(function () {
+  $(".photo").click(function () {
+    var $photo = $(this);
+    var $modal = $photo.nextAll(".modal").first();
+    var $img = $modal.find(".modal-content");
+    var $caption = $modal.find(".caption");
 
-// //Get the image
-// var img = document.getElementById("photo1");
-// var modalImg = document.getElementById("img01");
-// var captionText = document.getElementById("caption");
+    var photoSrc = $photo.attr("src");
 
-// img.onclick = function () {
-//   modal.style.display = "block";
-//   modalImg.src = this.src;
-//   modalImg.alt = this.alt;
-//   captionText.style.display = "block";
-// };
+    $modal.css("display", "block");
+    $img.css("display", "block");
+    $img.attr("src", photoSrc);
+    $img.css("height", "auto");
+    $img.css("width", "50%");
+    $caption.css("display", "block");
+  });
 
-// var span = document.getElementsByClassName("close")[0];
-
-// //click on (x), close the modal
-// span.onclick = function () {
-//   modal.style.display = "none";
-// };
+  $(".close").click(function () {
+    var $modal = $(this).closest(".modal");
+    $modal.css("display", "none");
+  });
+});

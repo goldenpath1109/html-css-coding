@@ -1,90 +1,166 @@
 .image {
-  cursor: pointer;
-  transition: 0.3s;
-  margin-top: 10%;
-  margin-left: 35%;
+	cursor: pointer;
+	transition: 0.3s;
 }
 
-.image:hover {
-  opacity: 0.7;
-}
+/* .image:hover {
+	opacity: 0.7;
+} */
 
 /* The Modal (background) */
 .modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.7);
+	display: none;
+	position: absolute;
+	z-index: 9999;
+	padding-top: 100px;
+	left: 50%;
+	top: 25%;
+	transform: translate(-50%, -50%);
+	width: 1000px;
+	height: 950px;
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.9);
+}
+.modal_1981_2_img {
+	top: -17%;
+}
+.modal_1981_3_img {
+	top: 9%;
+}
+.modal_1983_1_img {
+	top: 179%;
+}
+.modal_1985_1_img {
+	top: 28%;
+}
+.modal_1988_img {
+	top: -21%;
+}
+.modal_1997_2 {
+	top: -20%;
+}
+.modal_1998_1_img {
+	top: 21%;
+}
+.modal_2006_img {
+	top: -25%;
+}
+.modal_2009 {
+	top: -47%;
+}
+.modal_2009_2 {
+	top: -47%;
+}
+.modal_2010_img {
+	top: 165%;
+}
+.modal_2011_1 {
+	top: -28%;
+}
+.modal_2015 {
+	top: -21%;
+}
+.modal_2020_1 {
+	top: 29%;
+}
+.modal_2021 {
+	top: -30%;
+}
+.modal_2022 {
+	top: 220%;
+}
+.modal_2022_3 {
+	top: -45%;
+}
+.modal_2023{
+  top: 31%;
+}
+.modal_2023_1{
+  top: 168%;
+}
+.modal_2023_2{
+  top: 168%;
+}
+.modal_2023_3{
+  top: 21%;
+}
+.modal_2023_4{
+  top: 21%;
+}
+/* caption */
+.caption_1997_2 {
+	top: 716px !important;
+	left: 2px !important;
+}
+.caption_2011_1_2 {
+	top: 824px !important;
 }
 /* Modal Content (image) */
 .modal-content {
-  margin: auto;
-  display: block;
-  wodth: 80%;
-  max-width: 700px;
+	margin: auto;
+	display: none;
+	width: 50%;
+	max-width: 700px;
+	z-index: 9999;
 }
 /*Caption of Modal Image*/
 #caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
+	margin: 0 auto;
+	display: none;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	position: absolute;
+	top: 694px;
+	left: 150px;
 }
 
 /*Animation*/
 .modal-content,
 #caption {
-  -webkit-animation-name: zoom;
-  animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-duration: 0.6s;
+	-webkit-animation-name: zoom;
+	animation-name: zoom;
+	-webkit-animation-duration: 0.6s;
+	animation-duration: 0.6s;
 }
 @-webkit-keyframes zoom {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
 }
 @keyframes zoom {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
 }
 /* Close Button*/
 .close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
 }
 .close:hover,
 .close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
 }
 /* 100% Image Width on Smaller Screens*/
 @media only screen and (max-width: 700px) {
-  .modal-content {
-    width: 100%;
-  }
+	.modal-content {
+		width: 100%;
+	}
 }
