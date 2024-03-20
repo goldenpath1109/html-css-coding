@@ -1243,16 +1243,27 @@ body {
   position: relative;
   height: 150px;
 }
+.year_1977_img_pc {
+  position: absolute !important;
+  top: 51px !important;
+  left: -40px;
+  font-size: 16px;
+}
+.year_1977_img_pc img {
+  width: 243px;
+  height: 255px;
+}
 .year_1977_img {
   position: absolute !important;
-  top: 48px !important;
-  left: -96px;
+  top: 120px !important;
+  left: 58px;
   font-size: 16px;
 }
 .year_1977_img img {
   width: 243px;
   height: 255px;
 }
+
 .year_1977_sp {
   height: 500px !important;
 }
@@ -1271,7 +1282,6 @@ body {
   position: absolute;
   top: 104px;
   left: 58px;
-  z-index: -99;
 }
 .year_1981_1_sp {
   height: 400px !important;
@@ -1281,7 +1291,6 @@ body {
   position: absolute;
   top: 104px;
   left: 58px;
-  z-index: -99;
 }
 .year_1981_2_sp {
   height: 400px !important;
@@ -1291,7 +1300,6 @@ body {
   position: absolute;
   top: 104px;
   left: 58px;
-  z-index: -99;
 }
 .year_1981_3_sp {
   height: 400px !important;
@@ -1301,7 +1309,6 @@ body {
   position: absolute;
   top: 104px;
   left: 58px;
-  z-index: -99;
 }
 .year_1983_1_sp {
   height: 400px !important;
@@ -1311,14 +1318,12 @@ body {
   position: absolute;
   top: 104px;
   left: 58px;
-  z-index: -99;
 }
 .year_1985_1_sp_img {
   font-size: 16px;
   position: absolute;
   top: 104px;
   left: 58px;
-  z-index: -99;
 }
 .year_1985_1_sp {
   height: 410px !important;
@@ -1328,7 +1333,6 @@ body {
   position: absolute;
   top: 104px;
   left: 58px;
-  z-index: -99;
 }
 .year_1988_sp_img img {
   width: 250px;
@@ -1355,7 +1359,6 @@ body {
   position: absolute;
   top: 104px;
   left: 58px;
-  z-index: -99;
 }
 .year_1998_1_sp {
   height: 330px !important;
@@ -1368,7 +1371,6 @@ body {
   position: absolute;
   top: 91px;
   left: 58px;
-  z-index: -99;
 }
 .year_1998_1_sp_img img {
   width: 250px;
@@ -1392,7 +1394,6 @@ body {
   position: absolute;
   top: 104px;
   left: 58px;
-  z-index: -99;
 }
 .year_2006_sp_img img {
   width: 250px;
@@ -1406,14 +1407,12 @@ body {
   position: absolute;
   top: 130px;
   left: 58px;
-  z-index: -99;
 }
 .year_2009_2_sp_img {
   font-size: 16px;
   position: absolute;
   top: 400px;
   left: 58px;
-  z-index: -99;
 }
 .year_2010_sp {
   height: 400px !important;
@@ -1423,7 +1422,6 @@ body {
   position: absolute;
   top: 134px;
   left: 58px;
-  z-index: -99;
 }
 .year_2011_2_sp {
   height: 190px !important;
@@ -1436,21 +1434,22 @@ body {
   position: absolute;
   top: 134px;
   left: 58px;
-  z-index: -99;
 }
 .year_2011_2_sp_img {
   font-size: 16px;
   position: absolute;
   top: 421px;
   left: 58px;
-  z-index: -99;
 }
 .year_2011_3_sp_img {
   font-size: 16px;
   position: absolute;
   top: 699px;
   left: 58px;
-  z-index: -99;
+}
+.year_1981_3_sp_img img{
+  width: 250px;
+  height: auto;
 }
 .year_2015_1_sp {
   height: 400px !important;
@@ -1460,12 +1459,11 @@ body {
   position: absolute;
   top: 118px;
   left: 58px;
-  z-index: -99;
 }
 /* section5 */
 .section5_timeline {
   border-left: 2px solid white;
-  height: 4914px;
+  height: 5114px;
   margin-top: 20px;
 }
 .section5_timeline > div {
@@ -1483,7 +1481,6 @@ body {
   position: absolute;
   top: 125px;
   left: 58px;
-  z-index: -99;
 }
 .year_2020_1_sp_img img {
   width: 250px;
@@ -1497,7 +1494,6 @@ body {
   position: absolute;
   top: 125px;
   left: 58px;
-  z-index: -99;
 }
 .year_2022_3_sp {
   height: 400px !important;
@@ -1507,7 +1503,6 @@ body {
   position: absolute;
   top: 125px;
   left: 58px;
-  z-index: -99;
 }
 .year_2021_2_sp {
   height: 1150px !important;
@@ -1517,28 +1512,24 @@ body {
   position: absolute;
   top: 97px;
   left: 58px;
-  z-index: -99;
 }
 .year_2021_2_2_sp_img {
   font-size: 16px;
   position: absolute;
   top: 351px;
   left: 58px;
-  z-index: -99;
 }
 .year_2021_2_3_sp_img {
   font-size: 16px;
   position: absolute;
   top: 606px;
   left: 58px;
-  z-index: -99;
 }
 .year_2021_2_4_sp_img {
   font-size: 16px;
   position: absolute;
   top: 901px;
   left: 58px;
-  z-index: -99;
 }
 .year_2023_sp {
   height: 1420px !important;
@@ -1548,14 +1539,12 @@ body {
   position: absolute;
   top: 97px;
   left: 58px;
-  z-index: -99;
 }
 .year_2023_1_sp_img {
   font-size: 16px;
   position: absolute;
   top: 374px;
   left: 58px;
-  z-index: -99;
 }
 .year_2023_1_sp_img img {
   width: 250px;
@@ -1578,21 +1567,18 @@ body {
   position: absolute;
   top: 637px;
   left: 58px;
-  z-index: -99;
 }
 .year_2023_3_sp_img {
   font-size: 16px;
   position: absolute;
   top: 902px;
   left: 58px;
-  z-index: -99;
 }
 .year_2023_4_sp_img {
   font-size: 16px;
   position: absolute;
   top: 1165px;
   left: 58px;
-  z-index: -99;
 }
 .year_1983_1_sp img {
   width: 250px;
